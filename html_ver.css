@@ -51,6 +51,26 @@ table.subcategory th {
 }
 
 
+table.table {
+    border: 1px solid #99AA99;
+    background-color: #BBDD99;
+}
+table.table td {
+    background-color: #F9F9FD;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+table.table th {
+    background-color: #F9F9FD;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-weight: normal;
+}
+
+
 
 
 a.ext {
