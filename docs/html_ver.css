@@ -8,6 +8,13 @@ body *
 }
 
 
+div.footer {
+    text-align: center;
+
+}
+
+
+
 table.header {
     margin: 0 auto;
     border: 1px solid #99AA99;
