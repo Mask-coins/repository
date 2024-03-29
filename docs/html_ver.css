@@ -69,11 +69,11 @@ table.table td {
     text-align: left;
 }
 table.table th {
-    background-color: #F9F9FD;
+    background-color: #D0F0D0;
     padding-left: 10px;
     padding-right: 10px;
     text-align: left;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 
