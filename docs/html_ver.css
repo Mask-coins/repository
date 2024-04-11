@@ -20,9 +20,6 @@ div.footer {
 hr {
     margin-top: 32px;
     margin-bottom: 32px;
-    border-width: 4px;
-    border-color: #AAAAAA; /* グレー色 */
-    box-shadow: none;
 }
 
 table.header {
