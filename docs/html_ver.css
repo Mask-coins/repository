@@ -6,9 +6,9 @@ body *
     'AXIS',
     Meiryo, メイリオ, sans-serif;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (orientation: portrait) and (pointer: coarse) {
     body {
-        font-size: 24px; /* 例として18pxに設定 */
+        font-size: 24px; /* スマートフォン用のフォントサイズ */
     }
 }
 
@@ -83,6 +83,14 @@ table.table th {
     font-weight: bold;
 }
 
+@media only screen and (orientation: portrait) and (pointer: coarse) {
+    th {
+        font-size: 32px; /* スマートフォン用のフォントサイズ */
+    }
+    td {
+        font-size: 32px; /* スマートフォン用のフォントサイズ */
+    }
+}
 
 
 
@@ -245,7 +253,7 @@ h2[id]
     padding-right: 0px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (orientation: portrait) and (pointer: coarse) {
     h2[id] {
         font-size: 24px; /* 例として18pxに設定 */
     }
