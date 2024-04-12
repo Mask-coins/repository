@@ -234,6 +234,11 @@ span.noexists
 
 
 /* H */
+h1 a{
+    color: #222222;
+}
+
+
 h2[id]
 {
     color: #445544;
