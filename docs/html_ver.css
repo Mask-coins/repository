@@ -6,6 +6,14 @@ body *
     'AXIS',
     Meiryo, メイリオ, sans-serif;
 }
+/* モバイル対応：画面幅が狭い端末用 */
+@media screen and (pointer: coarse) and (hover: none)  {
+    body,
+    .article-body,
+    .main-content {
+        font-size: 24px;
+    }
+}
 @media only screen and (orientation: portrait) and (pointer: coarse) {
     body {
         font-size: 24px; /* スマートフォン用のフォントサイズ */
