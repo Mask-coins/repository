@@ -6,12 +6,21 @@ body *
     'AXIS',
     Meiryo, メイリオ, sans-serif;
 }
+hr {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
 /* モバイル対応：画面幅が狭い端末用 */
 @media screen and (pointer: coarse) and (hover: none)  {
     body,
     .article-body,
     .main-content {
         font-size: 24px;
+    }
+    hr {
+        margin-top: 128px;
+        margin-bottom: 128px;
     }
 }
 @media only screen and (orientation: portrait) and (pointer: coarse) {
@@ -25,10 +34,6 @@ div.footer {
 
 }
 
-hr {
-    margin-top: 64px;
-    margin-bottom: 64px;
-}
 
 table.header {
     margin: 0 auto;
