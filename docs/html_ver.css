@@ -24,8 +24,14 @@ hr {
     }
 }
 @media only screen and (orientation: portrait) and (pointer: coarse) {
-    body {
-        font-size: 24px; /* スマートフォン用のフォントサイズ */
+    body,
+    .article-body,
+    .main-content {
+        font-size: 24px;
+    }
+    hr {
+        margin-top: 128px;
+        margin-bottom: 128px;
     }
 }
 
