@@ -112,10 +112,10 @@ table.table th {
 
 @media only screen and (orientation: portrait) and (pointer: coarse) {
     th {
-        font-size: 32px; /* スマートフォン用のフォントサイズ */
+        font-size: 16px; /* スマートフォン用のフォントサイズ */
     }
     td {
-        font-size: 32px; /* スマートフォン用のフォントサイズ */
+        font-size: 16px; /* スマートフォン用のフォントサイズ */
     }
 }
 
