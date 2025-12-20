@@ -12,6 +12,14 @@ hr {
 }
 
 /* モバイル対応：画面幅が狭い端末用 */
+@media (max-width: 768px) {
+    body {
+        font-size: 24px;
+    }
+}
+
+
+
 @media screen and (pointer: coarse) and (hover: none)  {
     body,
     .article-body,
